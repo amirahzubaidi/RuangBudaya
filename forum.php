@@ -58,7 +58,7 @@ $result = $stmt->get_result();
         </div>
         <nav>
           <ul>
-            <li><a href="">Beranda</a></li>
+            <li><a href="index.php">Beranda</a></li>
             <li><a href="forum.php">Forum Diskusi</a></li>
             <!-- Link lainnya -->
           </ul>
