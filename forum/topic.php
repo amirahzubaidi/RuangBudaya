@@ -112,7 +112,7 @@ if (!$topic) {
     </form>
 
     <a class="button" href="forum.php">Kembali ke Forum Diskusi</a>
-    <a class="button" href="index.html">Beranda</a>
+    <a class="button" href="">Beranda</a>
 </div>
 
 </body>
