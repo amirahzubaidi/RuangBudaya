@@ -1,5 +1,13 @@
 <?php
-include 'db.php'; // Koneksi ke database
+//include 'db.php'; // Koneksi ke database
+
+// Membuat koneksi
+$connection = new mysqli("localhost", "root", "", "register");
+
+// Cek koneksi
+if ($connection->connect_error) {
+    die("Koneksi gagal: " . $connection->connect_error);
+}
 
 
 // Memeriksa apakah ada pencarian
@@ -50,7 +58,7 @@ $result = $stmt->get_result();
         </div>
         <nav>
           <ul>
-            <li><a href="index.php">Beranda</a></li>
+            <li><a href="">Beranda</a></li>
             <li><a href="forum.php">Forum Diskusi</a></li>
             <!-- Link lainnya -->
           </ul>

@@ -1,6 +1,6 @@
 <?php 
      session_start();
-     require "../ruangbudaya/db.php";
+     require "../ruangbudayacopy/db.php";
      //$_SESSION['login'] = true;
     
      if($_SERVER['REQUEST_METHOD'] == "POST")
