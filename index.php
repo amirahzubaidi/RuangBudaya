@@ -44,7 +44,8 @@
     <ul class="navbar-nav custom-nav pl-5">
         <li class="nav-item custom-nav-item"><a href="index.php" class="nav-link">Home</a></li>
         <li class="nav-item custom-nav-item"><a href="librarybooks.php" class="nav-link">Books</a></li>
-        <li class="nav-item custom-nav-item"><a href="#news" class="nav-link">News</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Forum</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Education</a></li>
         <li class="nav-item custom-nav-item"><a href="logout.php" class="nav-link">Log Out</a></li>
         <li class="nav-item custom-nav-item"><a href="signup.php" class="nav-link" >Signup</a></li>
         <li class="nav-item custom-nav-item"><a href="https://wa.me/<?php echo $no_wa?>?text=Hello, Selamat datang di RuangBudaya" target="_black" class="nav-link">Contact</a></li>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Books</title>
     <style>
-        body {
+        body { 
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -104,14 +104,14 @@
 
 <div class="container">
     <!-- Pencarian Section -->
-    <div class="search-section">
+   <!-- <div class="search-section">
         <ul class="search-tabs">
             <li class="active">Pencarian Umum</li>
             <li>Pencarian Fulltext</li>
-        </ul>
+        </ul>-->
         <input type="text" class="search-input" placeholder="Pencarian berdasarkan judul, nama penulis, ISBN, penerbit, md5..">
         <div class="search-options">
-            <a href="#">Parameter pencarian</a>
+           <!-- <a href="#">Parameter pencarian</a> -->
         </div>
     </div>
 
