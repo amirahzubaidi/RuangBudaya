@@ -1,6 +1,6 @@
 <?php
 // Koneksi ke database
-$connection = new mysqli('localhost', 'root', '', 'forum_diskusi');
+$connection = new mysqli('localhost', 'root', '', 'register');
 
 // Ambil kata kunci pencarian
 $search_query = $_GET['query'];

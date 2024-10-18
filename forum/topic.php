@@ -7,7 +7,7 @@ if (isset($_GET['id'])) {
 }
 
 // Koneksi ke database
-$connection = new mysqli('localhost', 'root', '', 'forum_diskusi');
+$connection = new mysqli('localhost', 'root', '', 'register');
 
 // Periksa koneksi
 if ($connection->connect_error) {

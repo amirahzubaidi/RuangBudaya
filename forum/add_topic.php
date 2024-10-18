@@ -4,7 +4,7 @@
 $servername = "localhost"; // atau bisa gunakan "127.0.0.1"
 $username = "root";
 $password = "";
-$dbname = "forum_diskusi"; // Ganti dengan nama database yang kamu gunakan
+$dbname = "register"; // Ganti dengan nama database yang kamu gunakan
 
 // Membuat koneksi ke database
 $conn = new mysqli($servername, $username, $password, $dbname);
