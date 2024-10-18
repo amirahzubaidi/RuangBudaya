@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require "../ruangbudaya/session.php";  
+    require "../ruangbudayacopy/session.php";  
 
     $no_wa = 6282162951010;
 ?> 
