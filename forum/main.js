@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const newTopic = document.createElement("div");
     newTopic.classList.add("forum-topic");
     newTopic.innerHTML = `
-      <h3><a href="topik.html">${title}</a></h3>
+      <h3><a href="topik.php">${title}</a></h3>
       <p>${description}</p>
       <div class="forum-topic-meta">
         <span><i class="fas fa-user"></i> Oleh: Pengguna</span>
