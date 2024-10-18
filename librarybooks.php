@@ -103,12 +103,12 @@
 <body>
 
 <div class="container">
-    <!-- Pencarian Section -->
-   <!-- <div class="search-section">
+    Pencarian Section 
+   <div class="search-section">
         <ul class="search-tabs">
             <li class="active">Pencarian Umum</li>
             <li>Pencarian Fulltext</li>
-        </ul>-->
+        </ul>
         <input type="text" class="search-input" placeholder="Pencarian berdasarkan judul, nama penulis, ISBN, penerbit, md5..">
         <div class="search-options">
            <!-- <a href="#">Parameter pencarian</a> -->
