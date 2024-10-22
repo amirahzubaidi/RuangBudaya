@@ -1,4 +1,8 @@
-body{
+header{
+    position: absolute;
+}
+
+#body-style{
     font-family: "Inter", sans-serif;
 }
 
